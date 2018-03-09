@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Mina');
+
+* {
+    font-family: "Mina", sans-serif;
+}
+
+html,body{
+    height:100%;
+    margin:0;
+}
+
+header{
+    background-image: url("img/cafe.jpg");
+    height:100%;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+header h1{
+    margin:0;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 50px;
+    border: solid;
+    border-radius: 20px / 20px;
+    border-width: 1px;
+    border-color: black;
+    padding:30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+} 
+
+header h1:hover{
+    background-color:rgba(150,150,150,0.5);
+    color:white;
+}
+
+h2{
+    margin:0;
+}
+
+section{
+    margin:0;
+    background-color:rgb(120, 133, 140);
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    align-items:flex-start;
+    justify-content:flex-start;
+    min-height: 10px;
+}
+
+article{
+    display:flex;
+    flex-direction:column;
+    width: 150px;
+    margin:55px;
+    padding:100px 100px;
+    color:white;
+    background-color:white;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-size: x-large;
+}
+
+article:hover{
+    filter: grayscale(100%);
+    transition: all 0.3s ease-in-out;
+}
+
+#About{
+    background-image: url("img/about.jpg");
+    background-size: cover;
+    background-position:center;
+}
+
+#Article2{
+    background-image: url("img/Coffee.jpg");
+    background-size: cover;
+    background-position:center;
+}
+
+#Article3{
+    background-image: url("img/Shop.jpg");
+    background-size: cover;
+    background-position:center;
+}
+
+#Article4{
+    background-image: url("img/Food.jpg");
+    background-size: cover;
+    background-position:center;
+}
+
+#Article5{
+    background-image: url("img/Velo.jpeg");
+    background-size: cover;
+    background-position:center;
+}
+
+#Article5{
+    background-image: url("img/Velo.jpeg");
+    background-size: cover;
+    background-position:center;
+}
+
+#Article6{
+    background-image: url("img/Foodies.jpeg");
+    background-size: cover;
+    background-position:center;
+}
+
+footer{
+    background-image: url("img/end.jpg");
+    height:50%;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+footer h1{
+    margin:0;
+    text-align: center;
+    background-color: rgba(3, 3, 3, 0.3);
+    color:white;
+    font-size: 30px;
+    border: solid;
+    border-width: 1px;
+    border-color: white;
+    padding:30px;
+}
