@@ -31,7 +31,7 @@ header h1{
     border-radius: 20px / 20px;
     border-width: 1px;
     border-color: black;
-    padding:30px;
+    padding:20px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 } 
@@ -43,6 +43,16 @@ header h1:hover{
 
 h2{
     margin:0;
+}
+
+#rubriques{
+    color:white;
+    margin:0;
+    padding:50px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
 }
 
 section{
@@ -60,7 +70,7 @@ article{
     display:flex;
     flex-direction:column;
     width: 150px;
-    margin:55px;
+    margin:60px;
     padding:100px 100px;
     color:white;
     background-color:white;
@@ -69,7 +79,7 @@ article{
     border-color: black;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
-    font-size: x-large;
+    font-size:large;
 }
 
 article:hover{
