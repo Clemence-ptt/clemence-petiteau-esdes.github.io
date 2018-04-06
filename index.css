@@ -9,7 +9,37 @@ html,body{
     margin:0;
 }
 
-header{
+#rubriques{
+    color:white;
+    margin:0;
+    padding:50px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    position:fixed;
+    top:0;
+    margin:auto;
+    padding:20px;
+    width:100%;
+    background-color: black;
+    border: black;
+}
+
+#rubriques button{
+    color:white;
+    background-color: black;
+    border:none;
+    font-size: 20px;
+    margin-left:80px
+}
+
+#rubriques button:hover{
+    background-color:black;
+    color:rgba(255, 255, 255, 0.5);
+}
+
+#home{
     background-image: url("img/cafe.jpg");
     height:100%;
     background-size: cover;
@@ -20,23 +50,36 @@ header{
     flex-direction:column;
     justify-content:center;
     align-items:center;
+    position:relative
 }
 
-header h1{
+#home h1{
     margin:0;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.5);
     font-size: 50px;
-    border: solid;
     border-radius: 20px / 20px;
-    border-width: 1px;
-    border-color: black;
     padding:20px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    color:black;
+    text-decoration:none;
 } 
 
-header h1:hover{
+#home img{
+    width: 40px;
+    height: 40px;
+    position:absolute;
+    bottom:10px;
+    margin:auto;
+}
+
+a{
+    color:black;
+    text-decoration:none;
+}
+
+#home h1:hover{
     background-color:rgba(150,150,150,0.5);
     color:white;
 }
@@ -45,15 +88,6 @@ h2{
     margin:0;
 }
 
-#rubriques{
-    color:white;
-    margin:0;
-    padding:50px;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-}
 
 section{
     margin:0;
