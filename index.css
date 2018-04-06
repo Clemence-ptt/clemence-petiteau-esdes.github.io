@@ -128,37 +128,32 @@ article:hover{
 }
 
 #Article2{
-    background-image: url("img/Coffee.jpg");
+    background-image: url("img/coffee.jpg");
     background-size: cover;
     background-position:center;
 }
 
 #Article3{
-    background-image: url("img/Shop.jpg");
+    background-image: url("img/shop.jpg");
     background-size: cover;
     background-position:center;
 }
 
 #Article4{
-    background-image: url("img/Food.jpg");
+    background-image: url("img/food.jpg");
     background-size: cover;
     background-position:center;
 }
 
 #Article5{
-    background-image: url("img/Velo.jpeg");
+    background-image: url("img/velo.jpeg");
     background-size: cover;
     background-position:center;
 }
 
-#Article5{
-    background-image: url("img/Velo.jpeg");
-    background-size: cover;
-    background-position:center;
-}
 
 #Article6{
-    background-image: url("img/Foodies.jpeg");
+    background-image: url("img/foodies.jpeg");
     background-size: cover;
     background-position:center;
 }
