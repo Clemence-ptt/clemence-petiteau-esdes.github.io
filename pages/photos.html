@@ -4,9 +4,57 @@
     <head>
             <link rel="stylesheet" href="../styles/common.css">
             <link rel="stylesheet" href="../styles/photos.css">
+            <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
     </head>
 
     <body>
-        <h1>Photos</h1>
+
+        <header id="rubriques">
+
+            <a href="../index.html">
+                <button>Home</button>
+            </a>
+
+            <a href="../pages/discoverme.html">
+                <button>About</button>
+            </a>
+
+            <a href="../pages/decouvertes.html">
+                <button>Découvertes</button>
+            </a>
+
+            <a href="../pages/lifestyle.html">
+                <button>Lifestyle</button>
+            </a>
+
+            <a href="../pages/photos.html">
+                <button>Photos</button>
+            </a>
+
+        </header>
+
+
+        <h1>Découvrir mes photos</h1>
+
+        <section id="carrousel">
+            <figure>
+                <img src="../img/bar.jpg" alt>
+                <img src="../img/food.jpg" alt>
+                <img src="../img/end.jpg" alt>
+                <img src="../img/blue.jpg" alt>
+                <img src="../img/shop.jpg" alt>
+            </figure>
+        </section>
+
+        <section id="slides">
+            <img src="../img/food.jpg">
+            
+            <a class="arrow" href="#photos"></a>
+            <i class="fas fa-angle-left" onclick "next()"></i>
+            <i class="fas fa-angle-right" onclick "next()"></i>
+
+        </section>
+
+
     </body>
 </html>
