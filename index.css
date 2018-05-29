@@ -32,7 +32,7 @@ html,body{
     border: black;
 }
 
-#rubriques button{
+.button{
     color:white;
     background-color: black;
     border:none;
@@ -40,7 +40,7 @@ html,body{
     margin-left:80px
 }
 
-#rubriques button:hover{
+.button:hover{
     background-color:black;
     color:rgba(255, 255, 255, 0.5);
 }

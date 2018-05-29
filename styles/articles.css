@@ -1,7 +1,8 @@
 h1{
     color:black;
     text-align: center;
-    size:50%
+    size:50%;
+    animation: enter 2s ease-in-out 1 alternate;
 }
 
 img {
@@ -74,4 +75,13 @@ div:hover{
     background-image: url("../img/foodies.jpeg");
     background-size: cover;
     background-position:center;
+}
+
+@keyframes enter {
+    from{
+        transform:translateX(-300px);
+    }
+    to{
+        transform:translateX(0px);
+    }
 }
