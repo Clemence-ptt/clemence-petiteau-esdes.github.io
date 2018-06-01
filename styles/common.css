@@ -25,10 +25,13 @@ a{
     padding:50px;
     display:flex;
     flex-direction:row;
-    justify-content:center;
+    justify-content:space-around;
     align-items:center;
+    width:60%;
+    flex-wrap:wrap;
     position:fixed;
     top:0;
+    z-index: 1;
     margin:auto;
     padding:20px;
     width:100%;
@@ -65,57 +68,44 @@ h1 {
     size: 80px;
 }
 
+p{
+    margin:20px;
+    text-align: justify;
+}
+
 footer{
     background-image: url("../img/end.jpg");
-    height:50%;
     background-size: cover;
     background-repeat:no-repeat;
     background-attachment: fixed;
     background-position:center;
     display:flex;
     flex-direction:column;
-    justify-content:center;
+    justify-content:space-around;
     align-items:center;
-    margin:0;
-    padding:10%;
-}
-
-p{
-    margin:20px;
-    text-align: justify;
+    padding: 20px;
 }
 
 footer h1{
+    margin:0;
     text-align: center;
     background-color: rgba(3, 3, 3, 0.3);
     color:white;
-    font-size: 20px;
+    font-size: 30px;
     border: solid;
     border-width: 1px;
     border-color: white;
-    padding: 10px;
 }
 
-#partenaires{
-    margin-top:70px;
-    border:none;
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-    align-items:center;
-}
+/** RESPONSIVE **/
+/* Mobile */
+@media screen and (max-width: 600px) {
+    #rubriques {
+        padding: 0;
+    }
+    #rubriques .button{
+        font-size: 0.8rem;
+        margin: 0;
+    }
 
-#partenaires a{
-    background-color:rgba(255, 255, 255, 0.712);
-    border:none;
-    border-radius: 20px 20px;
-    padding:10px;
-    font-size: 20px;
-    margin-left:25px;
-    margin-right:25px;
-}
-
-
-#partenaires a:hover{
-    color:white;
 }

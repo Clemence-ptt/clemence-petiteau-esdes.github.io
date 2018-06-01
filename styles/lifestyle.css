@@ -3,21 +3,26 @@ h1{
     text-align: center;
     size:50%;
     animation: enter 2s ease-in-out 1 alternate;
+    margin:10%;
 }
 
-img {
-    max-width: 50%;
- }
-
-article {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    color:black;
+#images{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
 }
 
-#discover {
+#images img{
+    width: 30%;
+    height: 65%;
+}
+
+#paris{
+    text-align: justify;
+    margin:5%;
+}
+
+#discover{
     display:flex;
     flex-direction: row;
     justify-content: center;
@@ -109,3 +114,4 @@ footer h1{
         transform:translateX(0px);
     }
 }
+

@@ -77,30 +77,6 @@ div:hover{
     background-position:center;
 }
 
-footer{
-    background-image: url("../img/end.jpg");
-    background-size: cover;
-    background-repeat:no-repeat;
-    background-attachment: fixed;
-    background-position:center;
-    display:flex;
-    flex-direction:column;
-    justify-content:space-around;
-    align-items:center;
-    padding: 20px;
-}
-
-footer h1{
-    margin:0;
-    text-align: center;
-    background-color: rgba(3, 3, 3, 0.3);
-    color:white;
-    font-size: 30px;
-    border: solid;
-    border-width: 1px;
-    border-color: white;
-}
-
 @keyframes enter {
     from{
         transform:translateX(-300px);
