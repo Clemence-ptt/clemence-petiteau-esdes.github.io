@@ -15,7 +15,12 @@ img {
 h1 {
     color:#4b6180;
     text-align:center;
-    font-size: 80px;
+    font-size: 40px;
+}
+
+h1:hover{
+    filter: grayscale(100%);
+    transition: all 0.3s ease-in-out;
 }
 
 article {
@@ -40,6 +45,7 @@ article {
     justify-content: center;
     align-items:center;
     margin:20px;
+    color:black;
 }
 
 

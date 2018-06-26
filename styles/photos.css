@@ -1,11 +1,11 @@
+
+
 #carrousel img{
     max-width: 30%;;
 }
 
 #carrousel {
     position: relative; 
-    margin: 0;
-    padding: 0;
     font-size: 0;
     text-align: left;
 }
@@ -27,30 +27,21 @@ figure {
     animation: 40s slidy infinite;
 }
 
-#slides {
-    margin:20%;
-    background-image: url("../img/cafe.jpg");
-    background-size: 60px;
-    background-repeat:no-repeat;
-    background-attachment: fixed;
-    background-position:center;
+#album{
+    margin-top:20%;
     display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+
+#album img{
+    width:50%;
 }
 
-.arrow {
-    color: black;
-    size: 80%;
-    cursor: pointer;
-    display: flex;
-    flex-direction: row;
-    align-items:center;
-    justify-content: space-between;
+#album img:hover{
+    filter: grayscale(100%);
+    transition: all 0.3s ease-in-out;
 }
 
-.arrow:hover{
-    font-size: 40px;
-    transition: all 3s ease;
-}
