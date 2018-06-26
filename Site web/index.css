@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css?family=Mina');
+
+* {
+    font-family: "Mina", sans-serif;
+    box-sizing: border-box;
+}
+
+a{
+    color:black;
+    text-decoration:none;
+}
+
+html,body{
+    height:100%;
+
+    margin:0;
+}
+
+section {
+    width: 100%;
+}
+
+.button{
+    color:white;
+    background-color: black;
+    border:none;
+    font-size: 20px;
+    margin-left:80px
+}
+
+.button:hover{
+    background-color:black;
+    color:rgba(255, 255, 255, 0.5);
+}
+
+#home{
+    background-image: url("img/chambre.jpg");
+    height:100%;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+}
+
+#home h1{
+    margin:0;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 30px;
+    border-radius: 20px / 20px;
+    padding:20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    color:black;
+    text-decoration:none;
+    animation: enter 3s ease-in-out;
+} 
+
+
+#home img{
+    width: 40px;
+    height: 40px;
+    position:center;
+    bottom:10px;
+    margin:auto;
+}
+
+
+#home h1:hover{
+    background-color:rgba(150,150,150,0.5);
+    color:white;
+}
+
+h2{
+    margin:0;
+}
+
+#alaune{
+    text-align:center;
+    padding-top: 50px;
+    background-color:rgb(120, 133, 140);
+    color:white;
+    font-size:20px;
+}
+
+#articles{
+    margin:0;
+    background-color:rgb(120, 133, 140);
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:center;
+    min-height: 100%;
+}
+
+hr{
+    width:40%;
+    height: 5px;
+    color:black;
+    background-color: black;
+}
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+#intro article{
+    color:black;
+    font-size:13px;
+    margin: 0px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center; 
+    border:none;
+    background-color:rgba(150,150,150,0.5);
+    text-align: justify;
+}
+
+#intro p{
+    margin:10px;
+    width: 50%;
+}
+
+
+#articles a {
+    width: 23%;
+    margin: 20px;
+}
+
+article{
+    display:flex;
+    flex-direction:column;
+    width: 100%;
+    padding:20px;
+    color:white;
+    background-color:white;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-size:large;
+    background-size: cover;
+    background-position:center;
+    margin:20px;
+}
+
+article:hover{
+    filter: grayscale(100%);
+    transition: all 0.3s ease-in-out;
+}
+
+#Article1{ background-image: url("img/about.jpg"); }
+
+#Article2{ background-image: url("img/coffee.jpg"); }
+
+#Article3{ background-image: url("img/shop.jpg"); }
+
+#Article4{ background-image: url("img/food.jpg"); }
+
+#Article5{ background-image: url("img/velo.jpeg"); }
+
+#Article6{ background-image: url("img/foodies.jpeg"); }
+
+footer{
+    background-image: url("img/end.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    padding: 20px;
+}
+
+footer h1{
+    margin:0;
+    text-align: center;
+    background-color: rgba(3, 3, 3, 0.3);
+    color:white;
+    font-size: 30px;
+    border: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
+#partenaires{
+    width: 80%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap: wrap;
+    margin: 30px auto;
+}
+
+#partenaires a{
+    background-color:rgba(255, 255, 255, 0.712);
+    border-radius: 20px 20px;
+    padding:10px;
+}
+
+
+#partenaires a:hover{
+    color:white;
+}
+
+
+/** RESPONSIVE **/
+/* Mobile */
+@media screen and (max-width: 600px) {
+
+
+    #articles {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    #articles a {
+        width: 80%;
+    }
+
+    #intro p {
+        width: 90%;
+    }
+}
+
+
+
+
+/* Tablet */
+@media screen and (min-width: 600px) and (max-width: 900px){
+    #articles a {
+        width: 60%;
+    }
+}
+
+
+/** ANIMATIONS **/
+@keyframes enter{
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 100;
+        transform: translateY(0);
+    }
+}
+
+    

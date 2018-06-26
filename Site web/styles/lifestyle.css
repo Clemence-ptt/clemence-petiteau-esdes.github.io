@@ -1,0 +1,125 @@
+h1{
+    color:black;
+    text-align: center;
+    size:50%;
+    animation: enter 2s ease-in-out 1 alternate;
+    margin-top:10%;
+}
+
+#images{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+#images img{
+    width: 30%;
+    height: 65%;
+}
+
+hr{
+    width:40%;
+    height: 3px;
+    color:black;
+    background-color: black;
+    margin-bottom: 2%;
+}
+
+#paris{
+    text-align: justify;
+    margin:5%;
+}
+
+#discover{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    color:white;
+    border: solid;
+    border-width: 1px;
+    border-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-size:large;
+    margin:30px 30px;
+    padding:20px;
+}
+
+div:hover{
+    filter:grayscale(100%);
+    transition: all 0.3s ease-in-out;
+}
+
+#Discover1{
+    background-image: url("../img/about.jpg");
+    background-size: cover;
+    background-position:center;
+}
+
+#Discover2{
+    background-image: url("../img/coffee.jpg");
+    background-size: cover;
+    background-position:center;
+}
+
+#Discover3{
+    background-image: url("../img/shop.jpg");
+    background-size: cover;
+    background-position:center;
+}
+
+#Discover4{
+    background-image: url("../img/food.jpg");
+    background-size: cover;
+    background-position:center;
+}
+
+#Discover5{
+    background-image: url("../img/velo.jpeg");
+    background-size: cover;
+    background-position:center;
+}
+
+#Discover6{
+    background-image: url("../img/foodies.jpeg");
+    background-size: cover;
+    background-position:center;
+}
+
+footer{
+    background-image: url("../img/end.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    padding: 20px;
+}
+
+footer h1{
+    margin:0;
+    text-align: center;
+    background-color: rgba(3, 3, 3, 0.3);
+    color:white;
+    font-size: 30px;
+    border: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
+@keyframes enter {
+    from{
+        transform:translateX(-300px);
+    }
+    to{
+        transform:translateX(0px);
+    }
+}
+
