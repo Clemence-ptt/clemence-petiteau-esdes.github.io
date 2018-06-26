@@ -2,16 +2,18 @@
 Création d'un blog
 
 ## Cible :
-Des voyageurs, des personnes jeunes et actives (découverte de restaurant, d'une exposition...).
+Des voyageurs, des personnes jeunes et actives (découverte de restaurant, d'une exposition, d'une ville...).
 
 ## Architecture :
-1. Nom du site web en gros au début. 
+1. Nom en gros au début, avec liens vers réseaux sociaux. 
 
-2. Création de rubriques en haut du blog en long (Photos, voyages, découvertes...) avec une liste déroulante des 3 premiers articles.
+2. Création de rubriques en haut du blog en long (Photos, lifestyle, découvertes...).
 
 4. Photo de bienvenue (100% de la page) qui apparaît à la suite avec "ABOUT" écrit au milieu (redirection sur un article descriptif de qui je suis etc.).
 
-5. Articles à la suite avec simplement le début de l'article (bouton "Continuer la lecture" qui amène ensuite à l'article complet) / A l'intérieur des articles : Grande image (100% de la page) au début avec le titre au milieu + Texte + photos / Un bandeau à la fin de l'article "VOUS DEVRIEZ AIMER..." avec d'autres articles de la même rubrique en petites icônes / Regarder les effets des images dans un article / Commentaires / Lien à la fin de chaque article vers les réseaux sociaux. 
+5. Articles : Grandes images + Texte / Un bandeau à la fin de l'article "VOUS DEVRIEZ AIMER..." avec d'autres articles de la même rubrique en petites icônes / Regarder les effets des images dans un article
+
+6. Création d'un album dans rubrique "Photos" avec effets sur chaque photos. 
 
 
 ## Liens :
@@ -22,3 +24,5 @@ Des voyageurs, des personnes jeunes et actives (découverte de restaurant, d'une
 
 ## Références : 
 http://www.atelierdore.com/fr/
+https://jannideler.com
+
