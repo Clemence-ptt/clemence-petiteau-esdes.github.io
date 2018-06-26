@@ -25,5 +25,5 @@ Des voyageurs, des personnes jeunes et actives (découverte de restaurant, d'une
 ## Références : 
 http://www.atelierdore.com/fr/ - 
 https://jannideler.com - 
-http://makemylemonade.com/?
+http://makemylemonade.com/
 
