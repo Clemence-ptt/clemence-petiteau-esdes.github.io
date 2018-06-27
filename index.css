@@ -111,6 +111,10 @@ hr{
     justify-content: flex-start;
 }
 
+#intro b{
+    color:white;
+}
+
 
 #intro article{
     color:black;
